@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hello You</title>
+
+</head>
+<body>
+
+<p id="demo"></p>  
+  
+<script>
+function repeat(numbar){
+  var i = 0;
+  var text = "";
+  while (i !== numbar) {
+    text += "* * * * *";
+    i++;    
+  }
+  return text;
+}
+document.getElementById("demo").innerHTML = repeat(10);
+</script>
+
+</body>
+</html>
